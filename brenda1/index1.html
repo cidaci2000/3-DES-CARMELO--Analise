@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nome do site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="template-areas">
+        <div class="header"> 
+            <nav class="navegacao">
+                <div class="logo">
+                <img id="logo" src="logo.jpg" alt="Logo">
+                </div>
+                <div class="barra-de-pesquisa">
+                    <input type="text" placeholder="Pesquisar">
+                 
+                  </div>
+                <div class="carrinho">
+                <img id="logo"  src="car.png" alt="Imagem" href="https://www.google.com">
+                <span class="quantidade"></span>
+                </div>
+                <div class="cadastro">
+                <a href="#">Cadastre-se</a>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="contest">
+            <div>
+                <h1>Formulário de cadastro</h1>
+                <form action="processar.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="senha">
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+            <div>
+                <h1>Formulário de login</h1>
+                <form action="processar.php" method="post">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="senha">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/meusite" target="_blank"><img src="facebook-colorido.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/meusite" target="_blank"><img src="whatsapp-colorido.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/meusite" target="_blank"><img src="instagram-colorido.png" alt="Instagram"></a>
+              </div>
+              <p>Copyright &copy; 2023 Meu site</p>
+        </div>
+    </div>
+</body>
+</html>

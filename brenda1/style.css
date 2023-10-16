@@ -1,0 +1,164 @@
+body{
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-style: arial;
+    color: beige;
+}
+
+.container {
+    background-size: contain;  
+    background-color: rgb(225, 175, 11);
+    border: 3px solid rgb(238, 231, 237);
+    padding: 2px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+        "h h h "
+        "c c c "
+        "c c c "
+        "f f f "
+    ;
+
+}
+
+.container div {
+    padding: 0.5px;
+    border: 1px solid #e2c48d;
+}
+
+.header {
+    background-color: #e2c48d;
+    grid-area: h;
+    height: 80px;
+     
+} 
+
+.navegacao {
+    background-color:#e2c48d;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5px;
+    
+  }
+  
+.logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2px;
+  }
+#logo{
+    width: 50%;
+    
+}
+  
+.barra-de-pesquisa {
+    width: 400px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.barra-de-pesquisa input {
+    width: 100%;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+.barra-de-pesquisa img {
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+}
+  
+.carrinho {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carrinho a {
+    color: #000;
+    font-size: 18px;
+}
+  
+.carrinho span {
+    color: red;
+    font-size: 16px;
+}
+  
+.cadastro {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cadastro a {
+    color: #000;
+    font-size: 18px;
+}
+
+
+.contest {
+    grid-area: c;
+    background-color: #e2c48d;
+    display: flex;
+    justify-content: space-around;
+}
+
+  
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+label {
+    font-weight: bold;
+  }
+  
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+.btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
+.footer {
+    background-color: #e2c48d;
+    grid-area: f;
+
+}
+footer {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 40px;
+  }
