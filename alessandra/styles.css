@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(imagem.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+    
+
+}
+
+header{
+    background-color: palevioletred;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #151414;
+    font-weight: bold;
+}
+
+.sabores,.contato{
+    padding: 20px;
+}
+
+footer{
+    background-color: palevioletred;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    gap: 14%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
