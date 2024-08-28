@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(250, 220, 248);
+    background: linear-gradient(180deg,rgb(240, 198, 237);) 0%, rgba(249,249,249,1) 51%, rgba(237,218,218,1) 99%);
+}
+.primeiro{
+    background-color: rgb(200, 119, 230);
+    width: 100%;
+    height: 80px;
+}
+
+.navbar{
+    width: 100%;
+    height: 200px;
+    display: flex;
+ background-color: rgb(255, 229, 249);
+}
+
+.imagem {
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    color: rgb(163, 36, 136);
+    font-weight: 600;
+    border: none;
+}
+
+img{
+    max-width: 150px;
+    max-height: 300px;
+    border-radius: 15%;
+    margin-top: 10px;
+
+}
+ 
+.navegacao{
+    width: 30pc;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20em;
+    gap:20px;
+    
+}
+
+
+.pesquisar{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    color: rgb(171, 83, 185);
+    font-weight: 600;
+    border: none;
+    padding-left: 1em;
+}
+.busca img {
+    width: 60px;
+    height: 50px;   
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    color: rgb(190, 58, 181);
+    font-weight: 600;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.busca{
+    display: flex;
+    padding-top: 3em;
+    margin-left: 1em;
+  
+}
+.navbar1{
+    display: flex;
+    background: rgb(240,206,249);
+    justify-content: space-evenly;
+    list-style-type: none;
+ 
+    
+}
+
+a{
+    text-decor background-image: url("images/sunset.png");ation: none;
+}
+.text{
+   display: flex;
+   padding-top: 2em;
+   margin-left: 28em;
+  color: rgb(233, 53, 221);
+  font-size: larger;
+  
+
+}
+.card{
+    width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.roupa{
+    width: 200px;
+    height: 200px;
+}
+
+.rodape{
+    background-color: rgb(211, 83, 236);
+  
+}

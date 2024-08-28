@@ -1,0 +1,77 @@
+body{
+background-image: url(./img/fundo.jpg);
+width: 90vw;
+height: 90vh;
+
+}
+
+
+.formulario{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(243, 118, 187);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+    
+.caixa{
+background-color: rgb(245, 144, 228);
+width: 13cm;
+height: 15cm;
+border-radius: 20px 20px 20px 20px;
+margin-left: 30%;
+
+}
+
+.botao{
+    border: solid 1px  rgb(181, 12, 150);
+    border-radius: 20px;
+    color: rgb(181, 12, 150);
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: rgb(181, 12, 150);
+    color: white;
+    transform: scale(1.2)
+}
+form{
+    text-align: center;
+}
+button{
+    background-color:  rgb(181, 12, 150);
+    color: white;
+    transform: scale(1.2);
+    border: 10px solid blue;
+border-radius: 20px;
+    }
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 10px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #333;
+font-size: 20px;
+text-align: center;
+}
